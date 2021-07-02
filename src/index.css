@@ -1,0 +1,32 @@
+:root {
+  --font-display: "Raleway", sans-serif;
+  --font-primary: "Montserrat", sans-serif;
+  /* Colors */
+  --color-primary: #2f80ed;
+  --color-grey-dark: #333;
+  --color-grey-light-1: #bdbdbb;
+  --color-grey-light-2: #828288;
+}
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%; /*1rem = 10px*/
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.6;
+  font-family: var(--font-primary);
+  font-weight: 600;
+}
+
+li {
+  list-style: none;
+}

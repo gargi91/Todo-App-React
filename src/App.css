@@ -1,0 +1,64 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background: white;
+  padding: 5rem;
+  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  position: relative;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.heading--1 {
+  font-family: var(--font-display);
+  font-size: 3.6rem;
+  font-weight: 700;
+  color: var(--color-grey-dark);
+}
+
+.main {
+  font-size: 1.4rem;
+  width: 70%;
+  flex-grow: 1;
+  background-color: #fff;
+  padding: 3rem;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  border-radius: 2rem;
+  z-index: 10;
+  backdrop-filter: blur(2rem);
+}
+
+.circle-1,
+.circle-2 {
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.3)
+  );
+  border-radius: 50%;
+  height: 20rem;
+  width: 20rem;
+  position: absolute;
+}
+
+.circle-1 {
+  top: 10%;
+  right: 15%;
+}
+.circle-2 {
+  bottom: 5%;
+  left: 10%;
+}
+
+p {
+  color: var(--color-grey-dark);
+}

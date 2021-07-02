@@ -1,0 +1,15 @@
+.icon-delete {
+  margin-left: 3rem;
+  transition: all 0.2s;
+}
+
+.icon-delete:hover {
+  cursor: pointer;
+  fill: #426696;
+}
+
+.icon-delete-btn {
+  fill: #fff;
+  width: 1.6rem;
+  height: 1.6rem;
+}
